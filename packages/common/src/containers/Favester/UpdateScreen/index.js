@@ -1,0 +1,94 @@
+import React from 'react';
+import PropTypes from 'prop-types';
+import Icon from 'react-icons-kit';
+import Tabs, { TabPane } from 'rc-tabs';
+import TabContent from 'rc-tabs/lib/TabContent';
+import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
+import 'rc-tabs/assets/index.css';
+import Box from 'reusecore/src/elements/Box';
+import Text from 'reusecore/src/elements/Text';
+import Heading from 'reusecore/src/elements/Heading';
+import Image from 'reusecore/src/elements/Image';
+import Container from '../../../components/UI/Container';
+
+import SectionWrapper from './updateScreen.style';
+import { SCREENSHOTS } from '../../../data/Favester/index';
+
+const UpdateScreen = ({ secTitleWrapper, secText, secHeading, iconTab }) => {
+  return (
+    <SectionWrapper id="feature_section">
+      <Container>
+        <Box {...secTitleWrapper}>
+          <Text {...secText} content="PRODUCT OVERVIEW" />
+          <Heading
+            {...secHeading}
+            content="Next generation social networking - today"
+          />
+        </Box>
+        <Tabs
+          renderTabBar={() => <ScrollableInkTabBar />}
+          renderTabContent={() => <TabContent animated={false} />}
+          className="update-screen-tab"
+        >
+          {SCREENSHOTS.map((item, index) => (
+            <TabPane
+              tab={
+                <>
+                  {/*<Icon icon={item.icon} size={24} />*/}
+                  <Image src={item.icon} alt={item.title} {...iconTab}/>
+                  {item.title}
+                </>
+              }
+              key={index + 1}
+            >
+              <Image src={item.image} alt={`screenshot-${index + 1}`} />
+            </TabPane>
+          ))}
+        </Tabs>
+      </Container>
+    </SectionWrapper>
+  );
+};
+
+UpdateScreen.propTypes = {
+  secTitleWrapper: PropTypes.object,
+  secText: PropTypes.object,
+  secHeading: PropTypes.object,
+  iconTab: PropTypes.object,
+};
+
+UpdateScreen.defaultProps = {
+  secTitleWrapper: {
+    mb: ['60px', '80px'],
+  },
+  iconTab: {
+    width: '24px',
+    mr: '12px',
+    display: 'inline-block',
+  },
+  secText: {
+    as: 'span',
+    display: 'block',
+    textAlign: 'center',
+    fontSize: '14px',
+    letterSpacing: '0.15em',
+    fontWeight: '700',
+    color: '#ff4362',
+    mb: '12px',
+  },
+  secHeading: {
+    textAlign: 'center',
+    fontSize: ['20px', '24px', '36px', '36px'],
+    fontWeight: '700',
+    color: '#0f2137',
+    letterSpacing: '-0.025em',
+    mb: '0',
+    ml: 'auto',
+    mr: 'auto',
+    lineHeight: '1.12',
+    width: '640px',
+    maxWidth: '100%',
+  },
+};
+
+export default UpdateScreen;

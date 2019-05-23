@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96pt" height="96pt" viewBox="0 0 96 96" version="1.1">
+<defs>
+<linearGradient id="linear0" gradientUnits="userSpaceOnUse" x1="44" y1="15" x2="44" y2="26.4264" spreadMethod="reflect" gradientTransform="matrix(1.5,0,0,1.5,0,0)">
+<stop offset="0" style="stop-color:#6DC7FF;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:#E6ABFF;stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear1" gradientUnits="userSpaceOnUse" x1="32" y1="6.3333" x2="32" y2="57.197" spreadMethod="reflect" gradientTransform="matrix(1.5,0,0,1.5,0,0)">
+<stop offset="0" style="stop-color:#1A6DFF;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:#C822FF;stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear2" gradientUnits="userSpaceOnUse" x1="19" y1="6.3333" x2="19" y2="57.197" spreadMethod="reflect" gradientTransform="matrix(1.5,0,0,1.5,0,0)">
+<stop offset="0" style="stop-color:#1A6DFF;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:#C822FF;stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear3" gradientUnits="userSpaceOnUse" x1="19" y1="6.3333" x2="19" y2="57.197" spreadMethod="reflect" gradientTransform="matrix(1.5,0,0,1.5,0,0)">
+<stop offset="0" style="stop-color:#1A6DFF;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:#C822FF;stop-opacity:1;"/>
+</linearGradient>
+<linearGradient id="linear4" gradientUnits="userSpaceOnUse" x1="27" y1="6.3333" x2="27" y2="57.197" spreadMethod="reflect" gradientTransform="matrix(1.5,0,0,1.5,0,0)">
+<stop offset="0" style="stop-color:#1A6DFF;stop-opacity:1;"/>
+<stop offset="1" style="stop-color:#C822FF;stop-opacity:1;"/>
+</linearGradient>
+</defs>
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear0);" d="M 72 31.5 C 72 34.8125 69.3125 37.5 66 37.5 C 62.6875 37.5 60 34.8125 60 31.5 C 60 28.1875 62.6875 25.5 66 25.5 C 69.3125 25.5 72 28.1875 72 31.5 Z "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear1);" d="M 79.5 10.5 L 16.5 10.5 C 12.363281 10.5 9 13.863281 9 18 L 9 66 C 9 70.136719 12.363281 73.5 16.5 73.5 L 51 73.5 L 51 81 C 51 83.480469 53.019531 85.5 55.5 85.5 L 67.5 85.5 C 69.980469 85.5 72 83.480469 72 81 L 72 73.5 L 79.5 73.5 C 83.636719 73.5 87 70.136719 87 66 L 87 18 C 87 13.863281 83.636719 10.5 79.5 10.5 Z M 39 61.5 L 39 64.5 L 36 64.5 L 36 52.5 L 43.5 52.5 C 44.328125 52.5 45 53.171875 45 54 L 45 64.5 L 42 64.5 L 42 61.5 Z M 27 58.5 L 27 64.5 L 24 64.5 L 24 45 C 24 44.171875 24.671875 43.5 25.5 43.5 L 31.5 43.5 C 32.328125 43.5 33 44.171875 33 45 L 33 64.5 L 30 64.5 L 30 58.5 Z M 18 49.5 L 21 49.5 L 21 64.5 L 18 64.5 Z M 43.5 49.5 L 36 49.5 L 36 45 C 36 42.519531 33.980469 40.5 31.5 40.5 L 25.5 40.5 C 23.019531 40.5 21 42.519531 21 45 L 21 46.5 L 18 46.5 L 18 19.5 L 78 19.5 L 78 64.5 L 72 64.5 L 72 57.910156 C 72 57.019531 71.738281 56.152344 71.242188 55.410156 L 65.246094 46.414063 C 64.410156 45.160156 63.007813 44.410156 61.5 44.410156 C 59.992188 44.410156 58.589844 45.160156 57.753906 46.414063 L 51.757813 55.410156 C 51.261719 56.15625 51 57.019531 51 57.910156 L 51 64.5 L 48 64.5 L 48 54 C 48 51.519531 45.980469 49.5 43.5 49.5 Z M 59.300781 49.5 L 63.699219 49.5 L 67.699219 55.5 L 55.300781 55.5 Z M 54 58.5 L 57 58.5 L 57 76.5 L 54 76.5 Z M 60 58.5 L 63 58.5 L 63 76.5 L 60 76.5 Z M 66 58.5 L 69 58.5 L 69 76.5 L 66 76.5 Z M 67.5 82.5 L 55.5 82.5 C 54.671875 82.5 54 81.828125 54 81 L 54 79.5 L 69 79.5 L 69 81 C 69 81.828125 68.328125 82.5 67.5 82.5 Z M 84 66 C 84 68.480469 81.980469 70.5 79.5 70.5 L 72 70.5 L 72 67.5 L 78 67.5 C 79.65625 67.5 81 66.15625 81 64.5 L 81 19.5 C 81 17.84375 79.65625 16.5 78 16.5 L 18 16.5 C 16.34375 16.5 15 17.84375 15 19.5 L 15 64.5 C 15 66.15625 16.34375 67.5 18 67.5 L 51 67.5 L 51 70.5 L 16.5 70.5 C 14.019531 70.5 12 68.480469 12 66 L 12 18 C 12 15.519531 14.019531 13.5 16.5 13.5 L 79.5 13.5 C 81.980469 13.5 84 15.519531 84 18 Z "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear2);" d="M 27 52.5 L 30 52.5 L 30 55.5 L 27 55.5 Z "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear3);" d="M 27 46.5 L 30 46.5 L 30 49.5 L 27 49.5 Z "/>
+<path style=" stroke:none;fill-rule:nonzero;fill:url(#linear4);" d="M 39 55.5 L 42 55.5 L 42 58.5 L 39 58.5 Z "/>
+</g>
+</svg>
