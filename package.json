@@ -40,7 +40,7 @@
 		"build-funcs": "babel \"packages/functions\" --out-dir \"dist/functions\"",
 		"copy-deps": "cpx \"packages/landing/*{package.json,package-lock.json,yarn.lock}\" \"dist/functions\" -C",
 		"install-deps": "cd \"dist/functions\" && yarn",
-		"netlify-deploy": "ÿarn workspace next-landing run netlify-build"
+		"netlify-deploy": "yarn workspace next-landing run netlify-build"
 	},
 	"husky": {
 		"hooks": {
